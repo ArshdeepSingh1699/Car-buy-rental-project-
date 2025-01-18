@@ -3,44 +3,44 @@ This Java code demonstrates concepts of object-oriented programming such as abst
 
 Abstract Class Car:
 
-This abstract class represents a generic car with attributes make and model.
+• This abstract class represents a generic car with attributes make and model.
 
-It has a constructor to initialize these attributes and getters to retrieve their values.
+• It has a constructor to initialize these attributes and getters to retrieve their values.
 
-It contains an abstract method displayDetails() that must be implemented by subclasses.
+• It contains an abstract method displayDetails() that must be implemented by subclasses.
 
 
 Class BuyCar:
 
-This class inherits from Car and represents a car that can be bought.
+• This class inherits from Car and represents a car that can be bought.
 
-It has an additional attribute price.
+• It has an additional attribute price.
 
-It overrides the displayDetails() method to display details specific to a car that is bought, including the price.
+• It overrides the displayDetails() method to display details specific to a car that is bought, including the price.
 
 
 
 Class RentalCar:
 
-This class inherits from Car and represents a car that can be rented.
+• This class inherits from Car and represents a car that can be rented.
 
-It has an additional attribute rentalPricePerDay.
+• It has an additional attribute rentalPricePerDay.
 
-It overrides the displayDetails() method to display details specific to a car that is rented, including the rental price per day.
+• It overrides the displayDetails() method to display details specific to a car that is rented, including the rental price per day.
 
 
 
 Main Class CarManagementSystem:
 
-This class contains the main method to run the program.
+• This class contains the main method to run the program.
 
-It prompts the user to choose a car type (buy or rent) and enter details like make, model, and price or rental price per day.
+• It prompts the user to choose a car type (buy or rent) and enter details like make, model, and price or rental price per day.
 
-Depending on the input, it creates an instance of either BuyCar or RentalCar.
+• Depending on the input, it creates an instance of either BuyCar or RentalCar.
 
-It uses the overridden displayDetails() method to display the relevant car details in a user-friendly format.
+• It uses the overridden displayDetails() method to display the relevant car details in a user-friendly format.
 
-Implements error handling for invalid car types or incorrect inputs.
+• Implements error handling for invalid car types or incorrect inputs.
 
 
 
